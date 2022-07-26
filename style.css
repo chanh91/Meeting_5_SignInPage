@@ -1,0 +1,138 @@
+body {
+    background: #FAFAFA;
+}
+
+.container {
+    max-width: 100%;
+    margin: 32px auto 0;
+}
+
+.row-main {
+    max-width: 935px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.container-left {
+    display: inline;
+    padding-right: 32px;
+}
+
+.container-left img {
+    height: 581px;
+    width: auto
+}
+
+.container-right {
+    width: 285px;
+    height: fit-content;
+    position: relative;
+}
+
+.container-right-top {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid lightgray;
+    background: white;
+    width: 285px;
+    height: fit-content;
+}
+
+/* Style the image and form */
+
+.form-main img {
+    height: 51px;
+    width: auto;
+    display: block;
+    margin-bottom: 8px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-main input {
+  width: 100%;
+  height: 38px;
+  padding: 12px 20px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 0,5px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Style the submit button */
+
+.button-log-in {
+    width: 100%;
+    height: 38px;
+    padding: 12px 20px;
+    margin: 12px 0;
+    border: 0,5px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+h4 {
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    color: #385185;
+}
+
+h5 {
+    margin-top: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+    color: #385185;
+}
+
+.container-right-bottom {
+    margin-top: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid lightgray;
+    background: white;
+    width: 285px;
+    height: fit-content;
+}
+
+#prompt {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    color: gray;
+}
+
+#signup {
+    margin: 4px;
+    padding: 0px;
+    font-weight: 600;
+    color: gray;
+}
+
+.appbutton {
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    padding-left: 80px;
+}
+
+.appbutton img {
+    width: 100%;
+    height: 41px;
+    padding: 4px;
+}
+
+footer h6 {
+    color: lightgray;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: smaller;
+    text-align: center;
+    margin-bottom: 8px;
+}
